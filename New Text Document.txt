@@ -1,0 +1,6 @@
+php artisan migrate
+php artisan make:model Product
+php artisan make:migration create_products_table
+
+php artisan make:seed ProductSeeder
+php artisan db:seed --class=ProductSeeder
